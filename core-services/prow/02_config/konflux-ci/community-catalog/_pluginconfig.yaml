@@ -1,8 +1,8 @@
 approve:
 - commandHelpLink: ""
+  lgtm_acts_as_approve: true
   repos:
   - konflux-ci/community-catalog
-  require_self_approval: true
 external_plugins:
   konflux-ci/community-catalog:
   - endpoint: http://refresh
@@ -56,6 +56,7 @@ plugins:
     - hold
     - jira
     - label
+    - lgtm
     - lifecycle
     - override
     - pony
